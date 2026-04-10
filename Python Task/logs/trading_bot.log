@@ -1,0 +1,10 @@
+2026-04-09 00:55:23,369 | INFO | Placing order: BTCUSDT, BUY, MARKET, 0.001, None
+2026-04-09 00:55:23,370 | ERROR | Order Error: API Secret required for private endpoints
+2026-04-09 01:08:35,128 | INFO | Placing order: BTCUSDT, BUY, MARKET, 0.001, None
+2026-04-09 01:08:35,129 | ERROR | Order Error: API Secret required for private endpoints
+2026-04-09 01:12:45,683 | INFO | Placing order: BTCUSDT, BUY, MARKET, 0.001, None
+2026-04-09 01:12:45,684 | ERROR | Order Error: API Secret required for private endpoints
+2026-04-10 13:22:20,434 | INFO | Placing order: BTCUSDT, BUY, MARKET, 0.001, None
+2026-04-10 13:22:20,435 | ERROR | Order Error: API Secret required for private endpoints
+2026-04-10 13:25:56,497 | INFO | Placing order: BTCUSDT, BUY, MARKET, 0.001, None
+2026-04-10 13:25:56,498 | ERROR | Order Error: API Secret required for private endpoints
