@@ -1,0 +1,6 @@
+{
+  "name": "Binance Futures Testnet Trading Bot",
+  "description": "A Python trading bot for placing MARKET, LIMIT, and STOP-LIMIT orders on Binance Futures Testnet, complete with a terminal interface and code explorer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

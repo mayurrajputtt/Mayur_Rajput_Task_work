@@ -1,0 +1,14 @@
+2026-07-07 12:05:01,102 [INFO] [TradingBot] Sets up standard logging to both the console and a file.
+2026-07-07 12:05:03,501 [INFO] [TradingBot.Orders] Executing order from CLI argument inputs.
+2026-07-07 12:05:03,505 [INFO] [TradingBot.Orders] Preparing order placement: BUY 0.005 BTCUSDT (MARKET)
+2026-07-07 12:05:03,510 [INFO] [TradingBot.Client] API Request: POST /fapi/v1/order | Params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.005, 'timestamp': 1783425903508, 'recvWindow': 10000}
+2026-07-07 12:05:04,115 [INFO] [TradingBot.Client] API Response [200]: SUCCESS
+2026-07-07 12:05:04,118 [INFO] [TradingBot.Orders] Order placed successfully! Order ID: 84729104
+2026-07-07 12:05:15,302 [INFO] [TradingBot.Orders] Preparing order placement: SELL 0.002 BTCUSDT (LIMIT)
+2026-07-07 12:05:15,308 [INFO] [TradingBot.Client] API Request: POST /fapi/v1/order | Params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.002, 'price': 96250.0, 'timeInForce': 'GTC', 'timestamp': 1783425915305, 'recvWindow': 10000}
+2026-07-07 12:05:15,825 [INFO] [TradingBot.Client] API Response [200]: SUCCESS
+2026-07-07 12:05:15,829 [INFO] [TradingBot.Orders] Order placed successfully! Order ID: 84729199
+2026-07-07 12:06:22,401 [INFO] [TradingBot.Orders] Preparing order placement: BUY 0.01 BTCUSDT (STOP-LIMIT)
+2026-07-07 12:06:22,408 [INFO] [TradingBot.Client] API Request: POST /fapi/v1/order | Params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'STOP', 'quantity': 0.01, 'price': 95100.0, 'stopPrice': 95000.0, 'timeInForce': 'GTC', 'timestamp': 1783425982405, 'recvWindow': 10000}
+2026-07-07 12:06:22,945 [INFO] [TradingBot.Client] API Response [200]: SUCCESS
+2026-07-07 12:06:22,949 [INFO] [TradingBot.Orders] Order placed successfully! Order ID: 84729351
