@@ -1,0 +1,6 @@
+{
+  "name": "Trader Sentiment and Historical Dataset Analyzer",
+  "description": "An interactive full-stack data science dashboard analyzing Hyperliquid trader historical performance merged with crypto Fear and Greed sentiment indexes, featuring multiple regression, K-Means clustering, and a reproducible Jupyter Notebook playground.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
