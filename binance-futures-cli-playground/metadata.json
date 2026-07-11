@@ -1,0 +1,6 @@
+{
+  "name": "Binance Futures CLI Playground",
+  "description": "An interactive developer suite, generator, and simulator for the Binance USDT-M Futures Python Client. Design and test orders in real-time.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
