@@ -1,0 +1,6 @@
+{
+  "name": "Trader Sentiment & Performance Analytics",
+  "description": "Exploratory and statistical data science dashboard analyzing how Hyperliquid historical trader activity, leverage, trade size, and realized PnL vary across Bitcoin Fear & Greed sentiment regimes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
