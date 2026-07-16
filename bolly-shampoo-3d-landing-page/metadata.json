@@ -1,0 +1,6 @@
+{
+  "name": "Bolly Shampoo 3D Landing Page",
+  "description": "High-fidelity interactive 3D landing page for Bolly Clarify Shampoo built with React, Three.js, and Tailwind CSS. Features an interactive, auto-rotating, draggable 3D bottle, premium WordPress-ready templates, and responsive mobile-first views.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
