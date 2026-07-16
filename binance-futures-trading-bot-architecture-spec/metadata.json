@@ -1,0 +1,6 @@
+{
+  "name": "Binance Futures Trading Bot Architecture Spec",
+  "description": "An interactive, highly polished architectural spec and theoretical design dashboard for a Python Binance Futures Testnet Trading Bot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
