@@ -1,0 +1,6 @@
+{
+  "name": "Market Sentiment & Trader Performance Analysis",
+  "description": "An interactive theoretical report exploring the relationship between the Bitcoin Fear & Greed Index and Historical Hyperliquid Trader Data.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
