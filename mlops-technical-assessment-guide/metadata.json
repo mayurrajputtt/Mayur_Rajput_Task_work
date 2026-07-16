@@ -1,0 +1,6 @@
+{
+  "name": "MLOps Technical Assessment Guide",
+  "description": "An interactive technical preparation and mentoring applet for a Python MLOps technical assessment, featuring visual simulators, a detailed syllabus breakdown, and an AI-powered mock interviewer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
