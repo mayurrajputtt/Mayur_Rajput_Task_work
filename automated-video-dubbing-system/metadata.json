@@ -1,0 +1,6 @@
+{
+  "name": "Automated Video Dubbing System",
+  "description": "An interactive AI-powered video dubbing pipeline. Review, download, and simulate the Python dubbing system with Whisper transcription, NLLB/IndicTrans translation, and Edge-TTS synthesis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,39 @@
+# ==============================================================================
+# Requirements for Automated Video Dubbing System
+# ==============================================================================
+# This file lists all direct and indirect dependencies required to run the
+# video dubbing pipeline. It includes specific version pins to ensure reproducibility.
+#
+# System requirements: Python 3.11+, FFmpeg installed on host.
+# ==============================================================================
+
+# Core & Infrastructure
+torch>=2.1.0; sys_platform != 'darwin' or platform_machine != 'arm64'
+torchvision>=0.16.0; sys_platform != 'darwin' or platform_machine != 'arm64'
+numpy>=1.24.0,<2.0.0
+
+# Video & Audio Extraction
+yt-dlp>=2024.3.10
+ffmpeg-python>=0.2.0
+pydub>=0.25.1
+
+# AI: Automatic Speech Recognition (ASR)
+openai-whisper>=20231117
+
+# AI: Translation Systems
+transformers>=4.38.0
+sentencepiece>=0.1.99
+sacremoses>=0.1.1
+# Note: indictrans2 for Hindi translation requires compilation from source or pre-built wheels
+# It is recommended to install it separately:
+# pip install git+https://github.com/AI4Bharat/IndicTrans2.git
+
+# AI: Text-to-Speech (TTS)
+edge-tts>=6.1.9
+
+# Utilities & CLI Interface
+tqdm>=4.66.0
+packaging>=23.0
+
+# Optional Features: Speaker Diarization
+# pyannote.audio>=3.1.1
