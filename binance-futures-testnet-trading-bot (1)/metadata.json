@@ -1,0 +1,6 @@
+{
+  "name": "Binance Futures Testnet Trading Bot",
+  "description": "Production-quality Python Binance Futures USDT-M Testnet trading bot CLI with rich output, argument validation, logging, and interactive web runner.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
