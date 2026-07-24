@@ -1,0 +1,9 @@
+2026-07-24 08:50:00,000 - mlops_pipeline - INFO - Job start: MLOps Batch Processing Pipeline initialized
+2026-07-24 08:50:00,005 - mlops_pipeline - INFO - Config loaded from 'config.yaml'
+2026-07-24 08:50:00,006 - mlops_pipeline - INFO - Validation success: Configuration parameter schema valid
+2026-07-24 08:50:00,010 - mlops_pipeline - INFO - Rows loaded: 50 records from 'data.csv'
+2026-07-24 08:50:00,011 - mlops_pipeline - INFO - Validation success: Dataset format and required columns valid
+2026-07-24 08:50:00,012 - mlops_pipeline - INFO - Computing rolling mean with window size 5
+2026-07-24 08:50:00,015 - mlops_pipeline - INFO - Signal generation complete (1 if close > rolling_mean else 0)
+2026-07-24 08:50:00,016 - mlops_pipeline - INFO - Metrics written to 'metrics.json': {"version": "v1", "rows_processed": 50, "metric": "signal_rate", "value": 0.52, "latency_ms": 12, "seed": 42, "status": "success"}
+2026-07-24 08:50:00,017 - mlops_pipeline - INFO - Job end: MLOps pipeline execution finished successfully

@@ -1,0 +1,6 @@
+{
+  "name": "MLOps Batch Pipeline",
+  "description": "Production-ready MLOps batch financial signal pipeline with YAML configuration, data validation, Docker, and interactive runner dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
