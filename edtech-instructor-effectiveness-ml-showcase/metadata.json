@@ -1,0 +1,6 @@
+{
+  "name": "EdTech Instructor Effectiveness ML Showcase",
+  "description": "Complete Data Science Internship assignment submission featuring an interactive Jupyter Notebook (.ipynb) viewer, live ML evaluator, EDA visualization suite, and downloadable Python Colab Notebook.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
