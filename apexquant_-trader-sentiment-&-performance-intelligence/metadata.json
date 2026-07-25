@@ -1,0 +1,6 @@
+{
+  "name": "ApexQuant: Trader Sentiment & Performance Intelligence",
+  "description": "Exploratory Data Analysis, Supervised ML, K-Means Clustering, and Institutional Strategies evaluating 211,224 Hyperliquid perpetual futures trades against Bitcoin Fear & Greed Sentiment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
