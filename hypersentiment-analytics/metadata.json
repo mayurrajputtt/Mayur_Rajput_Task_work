@@ -1,0 +1,6 @@
+{
+  "name": "HyperSentiment Analytics",
+  "description": "Professional Crypto Trader Performance & Sentiment Analysis Dashboard with ML Prediction, KMeans Clustering, Interactive Jupyter Notebook Generator, and Strategy Suite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

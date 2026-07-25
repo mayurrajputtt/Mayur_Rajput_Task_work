@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+@layer base {
+  body, html {
+    background-color: #0A0A0C !important;
+    color: #E2E8F0 !important;
+    font-family: 'Helvetica Neue', Arial, sans-serif !important;
+    margin: 0;
+  }
+}
+
+/* ==========================================================================
+   ELEGANT DARK THEME UTILITIES & PALETTE OVERRIDES
+   Extracted from Design HTML:
+   - Body background: #0A0A0C
+   - Card background: #16161A, border: 1px solid #2D2D35, radius: 8px
+   - Sidebar/Header background: #0E0E12, border: 1px solid #2D2D35
+   - Active nav item: #1E293B, text: #F8FAFC, border accent: #3B82F6
+   - Labels: font-size 0.7rem, uppercase, letter-spacing 0.05em, color #64748B
+   - Values: font-size 1.5rem, font-weight 700, color #F8FAFC
+   - Accents: #F59E0B (amber/orange), #10B981 (emerald/green), #3B82F6 (blue)
+   ========================================================================== */
+
+/* Background Palette Mappings */
+.bg-slate-950, [class*="bg-slate-950"] {
+  background-color: #0A0A0C !important;
+}
+
+.bg-slate-900, [class*="bg-slate-900"] {
+  background-color: #16161A !important;
+}
+
+.bg-slate-800, [class*="bg-slate-800"] {
+  background-color: #1E293B !important;
+}
+
+/* Border Color Mappings to Refined #2D2D35 */
+.border-slate-800, [class*="border-slate-800"], .border-slate-700, [class*="border-slate-700"] {
+  border-color: #2D2D35 !important;
+}
+
+/* Card & Container Radii matched to Design HTML (.card { border-radius: 8px; }) */
+.rounded-2xl, .rounded-xl, .rounded-lg {
+  border-radius: 8px !important;
+}
+
+/* Refined Typography Mappings */
+.text-slate-400 {
+  color: #94A3B8 !important;
+}
+
+.text-slate-500 {
+  color: #64748B !important;
+}
+
+/* Elegant Dark Labels (.label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748B; }) */
+span[class*="tracking-wider"], span[class*="tracking-widest"], label[class*="tracking-wider"], label[class*="tracking-widest"], h1[class*="tracking-widest"] {
+  font-size: 0.7rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  color: #64748B !important;
+}
+
+/* Elegant Dark Values (.value { font-size: 1.5rem; font-weight: 700; color: #F8FAFC; }) */
+[class*="text-lg"], [class*="text-xl"], [class*="text-2xl"] {
+  font-weight: 700 !important;
+  color: #F8FAFC;
+}
+
+/* Accent Palette Colors */
+.text-amber-400, .text-amber-500, .text-orange-400 {
+  color: #F59E0B !important;
+}
+
+.text-emerald-400, .text-emerald-500, .text-green-400 {
+  color: #10B981 !important;
+}
+
+.text-blue-400, .text-blue-500, .text-indigo-400 {
+  color: #60A5FA !important;
+}
+
+/* Recharts / Viz Styling in Elegant Dark */
+.recharts-default-tooltip {
+  background-color: #16161A !important;
+  border: 1px solid #2D2D35 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5) !important;
+  color: #E2E8F0 !important;
+}
+
+.recharts-cartesian-grid-horizontal line, .recharts-cartesian-grid-vertical line {
+  stroke: #2D2D35 !important;
+  stroke-dasharray: 3 3;
+}
+
+/* Chart Bars Gradient Styling (.chart-bar & .chart-bar-alt from Design HTML) */
+.chart-bar {
+  background: linear-gradient(to top, #3B82F6, #60A5FA) !important;
+  border-radius: 4px 4px 0 0 !important;
+}
+.chart-bar-alt {
+  background: linear-gradient(to top, #F59E0B, #FBBF24) !important;
+  border-radius: 4px 4px 0 0 !important;
+}
+
+/* SVG Gradients for Charts */
+.recharts-bar-rectangle path[fill*="#3b82f6"], .recharts-bar-rectangle path[fill*="#60a5fa"], .recharts-bar-rectangle path[fill*="#818cf8"], .recharts-bar-rectangle path[fill*="#334155"] {
+  fill: #3B82F6 !important;
+}
+
+.recharts-bar-rectangle path[fill*="#10b981"], .recharts-bar-rectangle path[fill*="#059669"] {
+  fill: #10B981 !important;
+}
+
+.recharts-bar-rectangle path[fill*="#f59e0b"], .recharts-bar-rectangle path[fill*="#d97706"], .recharts-bar-rectangle path[fill*="#ef4444"] {
+  fill: #F59E0B !important;
+}
+
+/* Custom Scrollbars for Elegant Dark */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0A0C;
+}
+::-webkit-scrollbar-thumb {
+  background: #2D2D35;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3B82F6;
+}
