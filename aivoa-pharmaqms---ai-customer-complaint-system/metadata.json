@@ -1,0 +1,6 @@
+{
+  "name": "AiVoA PharmaQMS - AI Customer Complaint System",
+  "description": "AI-powered pharmaceutical customer complaint management system with automated document intake, LangGraph workflow orchestration, RCA/CAPA recommendation, risk classification, and 21 CFR Part 11 audit compliance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
